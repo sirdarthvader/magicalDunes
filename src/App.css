@@ -1,0 +1,93 @@
+.App {
+  color: #61dafb;
+}
+
+a {
+  color: #61dafb !important;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+  background-color: #282c34;
+}
+
+.card,
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 20px 2px #111;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-text {
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fab {
+  font-size: 3rem !important;
+}
+
+.list {
+  font-size: 10em !important;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.skills {
+  background-color: rgba(256, 256, 256, 0.1);
+}
+
+.project:hover {
+  transform: scale(1.03);
+  transition: ease-in-out;
+}
+
+.article:hover {
+  transform: scale(1.03);
+  transition: ease-in-out;
+}
+
+.skill:hover {
+  transform: scale(1.03);
+  transition: ease-in-out;
+}
+
+.feedBox {
+  padding: 1em 10em;
+}
+
+@media only screen and (max-width: 560px) {
+  .feedBox {
+    padding: 0;
+  }
+  .box {
+    display: none !important;
+    flex-direction: row !important;
+  }
+}
+
+.bg-buttons {
+  z-index: -1;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
