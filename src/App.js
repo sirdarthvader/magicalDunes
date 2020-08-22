@@ -11,6 +11,9 @@ import Skills from "./Components/Pages/Skills";
 import Contact from "./Components/Pages/Contact";
 import TwitterFeed from "./Components/Pages/TwitterFeed";
 
+//lib helper files
+import { getQuote } from "./lib/fetchZenQuotes";
+
 // initialise google analytics
 
 import ReactGA from "react-ga";
@@ -20,6 +23,7 @@ class App extends Component {
     super(props);
     this.state = {
       paramType: null,
+      quote: "",
     };
   }
 
@@ -35,8 +39,13 @@ class App extends Component {
     } else {
       paramType = snowParticle;
     }
+
+    //generate quote
+    let quote = "";
+    quote = getQuote();
     this.setState({
       paramType,
+      quote,
     });
   }
 
@@ -52,6 +61,7 @@ class App extends Component {
           <div className="App">
             <Particles className="background" params={paramType} />
             <Navigation />
+            {/* {this.state.quote} */}
             <Route exact path="/" component={Home} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/blog" component={Blog} />
