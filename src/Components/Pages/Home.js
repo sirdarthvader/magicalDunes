@@ -5,22 +5,22 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <div className="jumbotron">
-          <h1 className="display-1">Hello, world!</h1>
-          <h5 style={{ color: "white" }}>
-            I am Ashish and I am a javaScript developer.
-          </h5>
-          <span>I am currently working on:</span>
-          <Typing>
-            <br />
-            <ul>
-              <li>React</li>
-              <li>Node JS</li>
-              <li>JavaScript</li>
-              <li>ExpressJS</li>
-            </ul>
-          </Typing>
-        </div>
+        <h3 className="display-1">
+          Hi <span id="emoji-sign">👋</span>
+        </h3>
+        <h5 style={{ color: "white" }}>
+          I am Ashish and I am a software developer.
+        </h5>
+        <h6>
+          Currently dreaming and developing solutions @
+          <a
+            href="https://fabric.inc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fabric
+          </a>
+        </h6>
       </div>
     );
   }

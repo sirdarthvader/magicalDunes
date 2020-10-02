@@ -5,7 +5,7 @@ class Navigation extends Component {
   render() {
     return (
       <div className="navigation mb-2 mt-2">
-        <div className= ''>
+        <div className="">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             {/* <Link className="navbar-brand" to="#">
               Navbar
