@@ -1,12 +1,15 @@
 import React, { Component } from "react";
-import Typing from "react-typing-animation";
+// import Typing from "react-typing-animation";
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
         <h3 className="display-1">
-          Hi <span id="emoji-sign">👋</span>
+          Hi{" "}
+          <span role="img" aria-label="wave emoji">
+            👋
+          </span>
         </h3>
         <h5 style={{ color: "white" }}>
           I am Ashish and I am a software developer.
