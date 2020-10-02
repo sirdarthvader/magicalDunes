@@ -10,7 +10,13 @@ function Quotes({ data }) {
           <footer class="blockquote-footer">
             {data.author} <cite title="Source Title">{data.source}</cite>
           </footer>
-          <footer class="text-muted text-left">Made with ❤️ in India</footer>
+          <footer class="text-muted text-left">
+            Made with{" "}
+            <span role="img" aria-label="heart emoji">
+              ❤️
+            </span>{" "}
+            in India
+          </footer>
         </blockquote>
       </div>
     </footer>
