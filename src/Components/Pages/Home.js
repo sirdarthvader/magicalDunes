@@ -20,6 +20,7 @@ class Home extends Component {
         <div className="info-text  display-4">
           Currently dreaming and developing solutions @
           <a
+            style={{ textDecoration: "underline" }}
             href="https://fabric.inc"
             target="_blank"
             rel="noopener noreferrer"
