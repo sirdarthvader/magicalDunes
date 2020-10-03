@@ -14,7 +14,8 @@ function Quotes({ data }) {
             Made with{" "}
             <span role="img" aria-label="heart emoji">
               ❤️
-            </span>{" "}
+            </span>
+            {"  "}
             in India
           </footer>
         </blockquote>
