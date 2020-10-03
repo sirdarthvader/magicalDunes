@@ -104,6 +104,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light,
     display: none !important;
     flex-direction: row !important;
   }
+  .info-text {
+    font-size: 2.5rem;
+  }
 }
 
 .bg-buttons {

@@ -11,10 +11,13 @@ class Home extends Component {
             👋
           </span>
         </div>
-        <div className="display-4 mb-4" style={{ color: "aquamarine" }}>
+        <div
+          className="info-text display-4 mb-4"
+          style={{ color: "aquamarine" }}
+        >
           I am Ashish and I am builing cool things for the internet.
         </div>
-        <div className="display-4">
+        <div className="info-text  display-4">
           Currently dreaming and developing solutions @
           <a
             href="https://fabric.inc"
