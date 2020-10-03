@@ -3,14 +3,14 @@ import PropTypes from "prop-types";
 
 function Quotes({ data }) {
   return (
-    <footer class="footer container">
-      <div class="">
-        <blockquote class="blockquote text-right">
-          <p class="mb-0">{data.quote}</p>
-          <footer class="blockquote-footer">
+    <footer className="footer container">
+      <div className="">
+        <blockquote className="blockquote text-right">
+          <p className="mb-0">{data.quote}</p>
+          <footer className="blockquote-footer">
             {data.author} <cite title="Source Title">{data.source}</cite>
           </footer>
-          <footer class="text-muted text-left">
+          <footer className="text-muted text-left">
             Made with{" "}
             <span role="img" aria-label="heart emoji">
               ❤️
@@ -24,7 +24,7 @@ function Quotes({ data }) {
 }
 
 Quotes.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.object,
 };
 
 export default Quotes;
