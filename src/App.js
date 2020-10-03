@@ -60,7 +60,7 @@ class App extends Component {
 
     return (
       <Router>
-        <div className="container">
+        <>
           <div className="App">
             <Particles className="background" params={paramType} />
             <Navigation />
@@ -72,7 +72,7 @@ class App extends Component {
             <Route exact path="/twitter" component={TwitterFeed} />
             <Quotes data={quote} />
           </div>
-        </div>
+        </>
       </Router>
     );
   }

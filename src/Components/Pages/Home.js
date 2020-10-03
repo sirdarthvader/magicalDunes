@@ -4,17 +4,17 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      <div className="home">
-        <h3 className="display-1">
+      <div className="home container">
+        <div className="display-2">
           Hi{" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span>
-        </h3>
-        <h5 style={{ color: "white" }}>
-          I am Ashish and I am a software developer.
-        </h5>
-        <h6>
+        </div>
+        <div className="display-3 mb-4" style={{ color: "aquamarine" }}>
+          I am Ashish and I am builing cool things for the internet.
+        </div>
+        <div className="display-3">
           Currently dreaming and developing solutions @
           <a
             href="https://fabric.inc"
@@ -23,7 +23,7 @@ class Home extends Component {
           >
             Fabric
           </a>
-        </h6>
+        </div>
       </div>
     );
   }
