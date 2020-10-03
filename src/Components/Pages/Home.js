@@ -5,9 +5,9 @@ class Home extends Component {
   render() {
     return (
       <div className="home container">
-        <div className="display-2">
+        <div className="display-2 mb-5">
           Hi{" "}
-          <span role="img" aria-label="wave emoji">
+          <span className="wave" role="img" aria-label="wave emoji">
             👋
           </span>
         </div>
