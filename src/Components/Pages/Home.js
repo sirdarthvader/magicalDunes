@@ -15,7 +15,7 @@ class Home extends Component {
           className="info-text display-4 mb-4"
           style={{ color: "aquamarine" }}
         >
-          I am Ashish and I am builing cool things for the internet.
+          I am Ashish and I am building cool things for the internet.
         </div>
         <div className="info-text  display-4">
           Currently dreaming and developing solutions @
