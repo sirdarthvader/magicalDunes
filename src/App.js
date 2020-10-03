@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { Particles } from "react-particles-js";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { starParticle, bubbleParticle, snowParticle } from "./particleData";
+import { starParticle, snowParticle } from "./particleData";
 import Navigation from "./Components/Navigation/Navigation";
 import Home from "./Components/Pages/Home";
 import Projects from "./Components/Pages/Projects";
@@ -33,12 +33,10 @@ class App extends Component {
     let n = Math.floor(Math.random() * 10);
     let paramType = {};
 
-    if (n <= 3) {
-      paramType = starParticle;
-    } else if (n <= 6) {
-      paramType = bubbleParticle;
-    } else {
+    if (n >= 5) {
       paramType = snowParticle;
+    } else {
+      paramType = starParticle;
     }
 
     //generate quote
