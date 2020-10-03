@@ -13,7 +13,7 @@ function Quotes({ data }) {
           <footer className="text-muted text-left">
             Made with{" "}
             <span role="img" aria-label="heart emoji">
-              ❤️
+              ❤️" "
             </span>{" "}
             in India
           </footer>
