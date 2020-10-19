@@ -14,7 +14,8 @@ class Contact extends Component {
           />
           <hr style={{ color: "white" }} />
           <h6 className="">
-            Email: <a href="mailto:ashishcodes4@gmail.com">ashishcodes4@gmail.com</a>
+            Email:{" "}
+            <a href="mailto:ashishcodes4@gmail.com">ashishcodes4@gmail.com</a>
           </h6>
           <div className="links">
             <div className="github">
@@ -60,6 +61,15 @@ class Contact extends Component {
                 rel="noopener noreferrer"
               >
                 <i className="fab fa-free-code-camp" />
+              </a>
+            </div>
+            <div className="stackoverflow">
+              <a
+                href="https://stackoverflow.com/users/9237049/ashish-singh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-stack-overflow"></i>
               </a>
             </div>
           </div>
