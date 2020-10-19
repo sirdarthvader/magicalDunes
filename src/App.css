@@ -156,3 +156,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light,
   display: flex;
   flex-direction: column;
 }
+
+.fab {
+  margin-right: 5px;
+}
