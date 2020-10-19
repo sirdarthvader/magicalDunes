@@ -69,7 +69,7 @@ class Contact extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-stack-overflow"></i>
+                <i className="fab fa-stack-overflow"></i>
               </a>
             </div>
           </div>
