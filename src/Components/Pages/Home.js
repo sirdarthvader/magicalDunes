@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-// import Typing from "react-typing-animation";
+import React, {Component} from "react"
 
 class Home extends Component {
   render() {
@@ -11,16 +10,13 @@ class Home extends Component {
             👋
           </span>
         </div>
-        <div
-          className="info-text display-4 mb-4"
-          style={{ color: "aquamarine" }}
-        >
+        <div className="info-text display-4 mb-4" style={{color: "aquamarine"}}>
           I am Ashish and I am building cool things for the internet.
         </div>
         <div className="info-text  display-4">
-          Currently dreaming and developing solutions @
+          Currently dreaming and developing solutions
           <a
-            style={{ textDecoration: "underline" }}
+            style={{textDecoration: "underline"}}
             href="https://fabric.inc"
             target="_blank"
             rel="noopener noreferrer"
@@ -29,8 +25,8 @@ class Home extends Component {
           </a>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Home;
+export default Home
