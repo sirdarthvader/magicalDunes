@@ -14,7 +14,7 @@ class Home extends Component {
           I am Ashish and I am building cool things for the internet.
         </div>
         <div className="info-text  display-4">
-          Currently dreaming and developing solutions
+          Currently dreaming and developing solutions @
           <a
             style={{textDecoration: "underline"}}
             href="https://fabric.inc"
