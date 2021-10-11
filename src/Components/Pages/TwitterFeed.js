@@ -1,23 +1,23 @@
-import React, { Component } from 'react'
-import { Timeline } from 'react-twitter-widgets'
+import React, {Component} from "react"
+import {Timeline} from "react-twitter-widgets"
 
 class TwitterFeed extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <div className='container mb-4'>
-          <div className='feedBox'>
+        <div className="container mb-4">
+          <div className="feedBox">
             <Timeline
-              className='mt-4'
+              className="mt-4"
               dataSource={{
-                sourceType: 'profile',
-                screenName: 'ashishnandansin'
+                sourceType: "profile",
+                screenName: "theclever_dev",
               }}
               options={{
-                username: 'ashishnandnasin',
-                height: '800'
+                username: "theclever_dev",
+                height: "800",
               }}
-              onLoad={() => console.log('Timeline is loaded!')}
+              onLoad={() => console.log("Timeline is loaded!")}
             />
           </div>
         </div>
