@@ -76,6 +76,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light,
 
 .skills {
   background-color: rgba(256, 256, 256, 0.1);
+  padding: 20px;
 }
 
 .project:hover {
@@ -159,4 +160,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light,
 
 .fab {
   margin-right: 5px;
+}
+
+.blog {
+  padding: 20px;
 }
