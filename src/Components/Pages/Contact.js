@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import avatar from "./images/avatar.jpeg";
+import React, {Component} from "react"
+import avatar from "./images/avatar.jpeg"
+import {SOCIAL_LINKS} from "../../constants/links"
 
 class Contact extends Component {
   render() {
@@ -8,19 +9,18 @@ class Contact extends Component {
         <div className="jumbotron text-center">
           <img
             className="img-fluid"
-            style={{ width: "200px", height: "auto", borderRadius: "50%" }}
+            style={{width: "200px", height: "auto", borderRadius: "50%"}}
             src={avatar}
             alt=""
           />
-          <hr style={{ color: "white" }} />
+          <hr style={{color: "white"}} />
           <h6 className="">
-            Email:{" "}
-            <a href="mailto:ashishcodes4@gmail.com">ashishcodes4@gmail.com</a>
+            Email: <a href={SOCIAL_LINKS.mail}>ashishcodes4@gmail.com</a>
           </h6>
           <div className="links">
             <div className="github">
               <a
-                href="https://github.com/ashishcodes4"
+                href={SOCIAL_LINKS.github}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -29,7 +29,7 @@ class Contact extends Component {
             </div>
             <div className="linkedin">
               <a
-                href="https://www.linkedin.com/in/ashish-nandan-singh/"
+                href={SOCIAL_LINKS.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -38,7 +38,7 @@ class Contact extends Component {
             </div>
             <div className="twitter">
               <a
-                href="https://twitter.com/ashishnandansin"
+                href={SOCIAL_LINKS.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -47,7 +47,7 @@ class Contact extends Component {
             </div>
             <div className="medium">
               <a
-                href="https://medium.com/@ashishcodes4"
+                href={SOCIAL_LINKS.medium}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -56,7 +56,7 @@ class Contact extends Component {
             </div>
             <div className="freecodecamp">
               <a
-                href="https://www.freecodecamp.org/ashishcodes4/"
+                href={SOCIAL_LINKS.freecodecamp}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,7 +65,7 @@ class Contact extends Component {
             </div>
             <div className="stackoverflow">
               <a
-                href="https://stackoverflow.com/users/9237049/ashish-singh"
+                href={SOCIAL_LINKS.stackoverflow}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -75,8 +75,8 @@ class Contact extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Contact;
+export default Contact
