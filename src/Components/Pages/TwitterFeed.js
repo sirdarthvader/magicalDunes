@@ -1,24 +1,14 @@
 import React, {Component} from "react"
-import {Timeline} from "react-twitter-widgets"
 
+
+// TODO create an issue to fix the twitter timeline issue
 class TwitterFeed extends Component {
   render() {
     return (
       <div>
         <div className="container mb-4">
           <div className="feedBox">
-            <Timeline
-              className="mt-4"
-              dataSource={{
-                sourceType: "profile",
-                screenName: "theclever_dev",
-              }}
-              options={{
-                username: "theclever_dev",
-                height: "800",
-              }}
-              onLoad={() => console.log("Timeline is loaded!")}
-            />
+            {/* // check for valid & updated npm library to render a twitter timeline componnent  */}
           </div>
         </div>
       </div>
