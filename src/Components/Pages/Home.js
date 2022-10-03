@@ -1,9 +1,8 @@
-import React, {Component} from "react"
+import React from "react"
 
-class Home extends Component {
-  render() {
-    return (
-      <div className="home container">
+const Home = () => {
+  return (
+    <div className="home container">
         <div className="display-2 mb-5">
           Hi{" "}
           <span className="wave" role="img" aria-label="wave emoji">
@@ -25,8 +24,7 @@ class Home extends Component {
           </a>
         </div>
       </div>
-    )
-  }
+  )
 }
 
-export default Home
+export default Home;
