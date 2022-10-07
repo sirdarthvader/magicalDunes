@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import avatar from './images/avatar.jpeg';
 import { SOCIAL_LINKS } from '../../constants/links';
 
