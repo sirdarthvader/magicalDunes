@@ -1,5 +1,4 @@
-import React, {Component} from "react"
-
+import React, { Component } from 'react';
 
 // TODO create an issue to fix the twitter timeline issue
 class TwitterFeed extends Component {
@@ -12,8 +11,8 @@ class TwitterFeed extends Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default TwitterFeed
+export default TwitterFeed;
